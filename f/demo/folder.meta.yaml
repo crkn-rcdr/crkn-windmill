@@ -1,0 +1,7 @@
+summary: ''
+display_name: demo
+extra_perms:
+  g/all: true
+  u/admin: true
+owners:
+  - u/admin
