@@ -13,4 +13,7 @@ Under the windmill_worker, create a volume to map the wip drive so that the wind
 e.g.,
  - /home/vm_account/wip:/data/wip
 
+## Windmill Docs
+See the https://github.com/windmill-labs/windmill and https://www.windmill.dev/docs/advanced/self_host
+
 
