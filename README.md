@@ -10,7 +10,7 @@ docker compose up -d
 ```
 ## Config
 Under the windmill_worker, create a volume to map the wip drive so that the windmill could access wip. 
-e.g
+e.g.,
  - /home/vm_account/wip:/data/wip
 
 
