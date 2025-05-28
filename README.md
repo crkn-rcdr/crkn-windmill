@@ -12,6 +12,7 @@ docker compose up -d
 Under the windmill_worker, create a volume to map the wip drive so that the windmill could access wip. 
 e.g.,
  - /home/vm_account/wip:/data/wip
+ - /home/vm_account/ocr:/data/ocr
 
 ## Windmill Docs
 See the https://github.com/windmill-labs/windmill and https://www.windmill.dev/docs/advanced/self_host
