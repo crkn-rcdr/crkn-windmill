@@ -9,17 +9,22 @@ e.g.,
 ```
 docker compose up -d 
 ```
+
+## npm and Node installation
+npm and Node need to be installed before installing wmill and the Node version must greater than v20.
+Reference:https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
+
 ## Wmill CLI installation
 To install the wmill CLI:
 ```
 npm install -g windmill-cli
 ```
-Notes: npm and Node need to be installed before installing wmill and the Node version must greater than v20.
-For the installation of npm and Node ,see https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 Reference : See https://www.windmill.dev/docs/advanced/cli/installation
+
 ## Git sync
 All scripts, flows and apps located in the workspace will be pushed to the Git repository. So git needs to be installed for using git sync
 Reference : See https://www.windmill.dev/docs/advanced/git_sync
+
 ## Windmill Docs
 More info,See the https://www.windmill.dev/docs/intro
 
