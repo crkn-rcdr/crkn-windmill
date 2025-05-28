@@ -1,5 +1,5 @@
 ## Installation
-Self-host by using Docker compose providev by windmill labs
+- Self-host by using Docker compose providev by windmill labs
 Windmill can be deployed using 3 files: (docker-compose.yml, Caddyfile and a .env) in a single command.
 Make sure Docker is started, and run:
 ```
