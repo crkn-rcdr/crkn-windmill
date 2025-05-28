@@ -1,5 +1,5 @@
 ## Installation
-Windmill containerd can be deployed using 3 files: docker-compose.yml, Caddyfile and a .env
+Windmill container can be deployed using 3 files: docker-compose.yml, Caddyfile and a .env
 1. Create a .env file based on .env.sample, and set the POSTGRES_PASSWORD and POSTGRES_DB values. These values are referenced in docker-compose.yml.
 2. Under the windmill_worker on the docker-compose.yml, create a volume to map the wip drive so that the windmill could access wip. 
 e.g.,
