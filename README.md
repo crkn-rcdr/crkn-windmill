@@ -11,7 +11,7 @@ docker compose up -d
 ```
 
 ## npm and Node installation
-npm and Node need to be installed before installing wmill and the Node version must greater than v20.
+npm and Node need to be installed before installing Wmill CLI and the Node version must greater than v20.
 Reference:https://docs.npmjs.com/downloading-and-installing-node-js-and-npm
 
 ## Wmill CLI installation
