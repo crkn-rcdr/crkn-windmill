@@ -14,7 +14,7 @@ To install the wmill CLI:
 ```
 npm install -g windmill-cli
 ```
-Notes: Node version must greater than v20.
+Notes: Node need to be installed before install wmill and the Node version must greater than v20.
 Reference : See https://www.windmill.dev/docs/advanced/cli/installation
 ## Git sync
 All scripts, flows and apps located in the workspace will be pushed to the Git repository. So git need to be installed for using git sync
