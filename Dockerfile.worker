@@ -1,9 +1,15 @@
-ARG WM_IMAGE                            
-FROM ${WM_IMAGE}   
+ARG WM_IMAGE
+FROM ${WM_IMAGE}
+
 RUN apt-get update \
  && apt-get install -y --no-install-recommends \
+      ocrmypdf \
+      qpdf ghostscript unpaper \          
       tesseract-ocr \
       tesseract-ocr-eng \
+      tesseract-ocr-fra \
       tesseract-ocr-chi-sim \
       tesseract-ocr-chi-tra \
  && rm -rf /var/lib/apt/lists/*
+
+
